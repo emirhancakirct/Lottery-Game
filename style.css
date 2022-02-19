@@ -16,6 +16,7 @@
 body{
     background-image: url(https://www.teahub.io/photos/full/330-3303980_vantablack-wallpaper.jpg);
     background-size: cover;
+    background-position: cover;
 }
 
 .main-container{
