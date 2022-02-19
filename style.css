@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@keyframes color {
+    0%   {color:rgb(22, 192, 98);}
+    25%  {color:rgb(233, 182, 16);}
+    50%  {color:rgb(2, 229, 254);}
+    75%  {color:rgb(0, 162, 255);}
+    100% {color:rgb(22, 192, 98);}
+  }
+
+body{
+    background-image: url(https://www.teahub.io/photos/full/330-3303980_vantablack-wallpaper.jpg);
+}
+
+.main-container{
+    /* border:5px solid red; */
+    margin: auto;
+    width: 50%;
+    text-align: center;
+
+}
+
+h1{
+    font-size: 5rem;
+    color:chartreuse;
+    animation-name: color;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+.input{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#number{
+    padding: 1rem;
+    width: 240px;
+    margin-right: 3rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    border: none;
+    outline: 8px solid orange;
+
+}
+#generate{
+    padding: 1rem;
+    /* border: 5px solid aquamarine; */
+    border-radius: 1rem;
+    background-color: rgb(114, 6, 51);
+    color:rgb(2, 255, 65);
+    outline:8px solid rgba(0, 0, 0, 0.541);
+    border: none;
+
+}
+
+#generate:hover{
+    background-color: whitesmoke;
+}
+
+h3{
+    font-size: xx-large;
+    animation-name: color;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+.your-lucky{
+    margin: 20px auto;
+    font-size: 1.5rem;
+}
+
+#lucky-numbers{
+    font-size: 1.5rem;
+    /* border: 5px solid red; */
+}
+#good-luck{
+    margin-top: 20px;
+    font-size: 2rem;
+    color: blue;
+    /* border: 5px solid red; */
+}
